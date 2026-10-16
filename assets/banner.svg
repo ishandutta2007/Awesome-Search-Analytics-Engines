@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="300" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="45%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="purplePinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes pulseOrb {
+        0%, 100% { transform: scale(1); opacity: 0.35; }
+        50% { transform: scale(1.22); opacity: 0.65; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(2deg); }
+      }
+      @keyframes streamFlow {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes scanBeam {
+        0% { transform: translateX(-200px); opacity: 0; }
+        25% { opacity: 0.8; }
+        75% { opacity: 0.8; }
+        100% { transform: translateX(1100px); opacity: 0; }
+      }
+      @keyframes pulseRing {
+        0% { r: 18px; opacity: 0.8; }
+        100% { r: 48px; opacity: 0; }
+      }
+
+      .bg-orb-1 { transform-origin: 180px 100px; animation: pulseOrb 8s ease-in-out infinite; }
+      .bg-orb-2 { transform-origin: 800px 200px; animation: pulseOrb 10s ease-in-out infinite 2s; }
+      .bg-orb-3 { transform-origin: 500px 70px; animation: pulseOrb 7s ease-in-out infinite 1s; }
+      .floating-node { animation: floatSlow 6s ease-in-out infinite; }
+      .data-stream { stroke-dasharray: 12, 16; animation: streamFlow 12s linear infinite; }
+      .scan-line { animation: scanBeam 6s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .radar-ring { animation: pulseRing 3.5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+    </style>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="960" height="300" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Matrix Grid -->
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="1">
+    <line x1="0" y1="50" x2="960" y2="50" />
+    <line x1="0" y1="100" x2="960" y2="100" />
+    <line x1="0" y1="150" x2="960" y2="150" />
+    <line x1="0" y1="200" x2="960" y2="200" />
+    <line x1="0" y1="250" x2="960" y2="250" />
+    <line x1="120" y1="0" x2="120" y2="300" />
+    <line x1="240" y1="0" x2="240" y2="300" />
+    <line x1="360" y1="0" x2="360" y2="300" />
+    <line x1="480" y1="0" x2="480" y2="300" />
+    <line x1="600" y1="0" x2="600" y2="300" />
+    <line x1="720" y1="0" x2="720" y2="300" />
+    <line x1="840" y1="0" x2="840" y2="300" />
+  </g>
+
+  <!-- Dynamic Ambient Glow Orbs in Background Layer -->
+  <circle class="bg-orb-1" cx="180" cy="100" r="130" fill="#3b82f6" opacity="0.25" filter="url(#softGlow)" />
+  <circle class="bg-orb-2" cx="800" cy="200" r="140" fill="#8b5cf6" opacity="0.22" filter="url(#softGlow)" />
+  <circle class="bg-orb-3" cx="500" cy="70" r="110" fill="#06b6d4" opacity="0.2" filter="url(#softGlow)" />
+
+  <!-- Animated Background Network Flow Lines (Behind text) -->
+  <g opacity="0.4" fill="none">
+    <path class="data-stream" d="M -20,240 Q 200,120 480,210 T 980,110" stroke="#38bdf8" stroke-width="2" />
+    <path class="data-stream" d="M -20,90 Q 280,270 560,90 T 980,240" stroke="#818cf8" stroke-width="1.8" style="animation-direction: reverse; animation-duration: 15s;" />
+    <path class="data-stream" d="M 100,320 C 350,220 620,310 880,40" stroke="#c084fc" stroke-width="1.5" style="animation-duration: 9s;" />
+  </g>
+
+  <!-- Scanning Laser Beam -->
+  <rect class="scan-line" x="0" y="0" width="80" height="300" fill="url(#cyanBlueGrad)" opacity="0.08" />
+
+  <!-- Graphic Nodes in Distance -->
+  <g class="floating-node" opacity="0.6">
+    <!-- Top-Left Search Node -->
+    <circle cx="88" cy="70" r="8" fill="#38bdf8" filter="url(#glow)" />
+    <circle class="radar-ring" cx="88" cy="70" r="18" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <line x1="88" y1="70" x2="160" y2="50" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3,3" opacity="0.5" />
+
+    <!-- Bottom-Right Analytics Node -->
+    <circle cx="870" cy="225" r="9" fill="#a855f7" filter="url(#glow)" />
+    <circle class="radar-ring" cx="870" cy="225" r="18" fill="none" stroke="#a855f7" stroke-width="1.5" style="animation-delay: 1.5s;" />
+    <line x1="870" y1="225" x2="800" y2="250" stroke="#a855f7" stroke-width="1" stroke-dasharray="3,3" opacity="0.5" />
+
+    <!-- Top-Right Index Node -->
+    <circle cx="890" cy="80" r="6" fill="#06b6d4" />
+    <circle cx="70" cy="230" r="6" fill="#6366f1" />
+  </g>
+
+  <!-- Foreground Backdrop Plate to Guarantee Perfect Legibility -->
+  <rect x="90" y="42" width="780" height="216" rx="16" fill="#0b1120" fill-opacity="0.82" stroke="#1e293b" stroke-width="1.5" filter="url(#glow)" />
+
+  <!-- FOREGROUND CONTENT: Header & Badges (Stays strictly on top) -->
+  <g id="foreground-content">
+    <!-- Category Mini-Badge -->
+    <g transform="translate(380, 62)">
+      <rect x="0" y="0" width="200" height="26" rx="13" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+      <circle cx="14" cy="13" r="4" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="105" y="17" fill="#93c5fd" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1.5">SEARCH &amp; ANALYTICS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="480" y="132" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="url(#textGrad)" letter-spacing="-0.5">
+      Awesome Search &amp; Analytics Engines
+    </text>
+
+    <!-- Subtitle -->
+    <text x="480" y="165" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      Curated Guide to Distributed Full-Text Search, Log Analytics, Vector Retrieval &amp; Observability
+    </text>
+
+    <!-- Interactive / Status Pills in Foreground -->
+    <g transform="translate(130, 196)">
+      <!-- Pill 1: Full-Text Search -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="158" height="34" rx="17" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" />
+        <text x="79" y="22" fill="#bfdbfe" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⚡ Full-Text Search</text>
+      </g>
+
+      <!-- Pill 2: Log Analytics -->
+      <g transform="translate(176, 0)">
+        <rect x="0" y="0" width="160" height="34" rx="17" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.2" />
+        <text x="80" y="22" fill="#ddd6fe" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">📊 Log Observability</text>
+      </g>
+
+      <!-- Pill 3: Hybrid & Vector -->
+      <g transform="translate(354, 0)">
+        <rect x="0" y="0" width="164" height="34" rx="17" fill="#1e293b" stroke="#06b6d4" stroke-width="1.2" />
+        <text x="82" y="22" fill="#bae6fd" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🧠 Vector &amp; RAG Search</text>
+      </g>
+
+      <!-- Pill 4: Open-Source & SaaS -->
+      <g transform="translate(536, 0)">
+        <rect x="0" y="0" width="164" height="34" rx="17" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+        <text x="82" y="22" fill="#a7f3d0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🌐 SaaS &amp; Open-Source</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Border Highlight Accent -->
+  <rect x="1" y="1" width="958" height="298" rx="15" fill="none" stroke="url(#textGrad)" stroke-width="1.2" opacity="0.4" />
+</svg>
