@@ -1,6 +1,6 @@
 # Awesome-Search-Analytics-Engines
 
-# Top Search & Analytics Engines Ecosystem
+## Top Search & Analytics Engines Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Distributed Full-Text Search, Log Analytics & Relevance Tuning*  
