@@ -6,7 +6,7 @@
 <br/>
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Search-Analytics-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Search-Analytics-Engines?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Search-Analytics-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Search-Analytics-Engines?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Search-Analytics-Engines/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Search-Analytics-Engines?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Search-Analytics-Engines/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Search-Analytics-Engines?style=flat-square&color=green" alt="License"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Search-Analytics-Engines/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -81,11 +81,11 @@ The table below catalogs premier commercial and cloud-hosted search and analytic
 
 ## 🛠️ Open-Source Search & Analytics Engines
 
-Below is the ranked catalog of premier open-source search, log analytics, and vector retrieval engines. **Strictly sorted in descending order by GitHub Star Count**.
+Below is the ranked catalog of premier open-source search, log analytics, and vector retrieval engines. **Strictly sorted in descending order by GitHub Stars_Count**.
 
 ---
 
-### 1. [Elasticsearch](https://github.com/elastic/elasticsearch) [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
+### 1. [Elasticsearch](https://github.com/elastic/elasticsearch) [![GitHub_Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)
 - 📜 **License**: SSPL 1.0 / Elastic License 2.0 (Dual licensed) | 💻 **Core Language**: Java
 - ⚡ **Overview**: The world's most widely deployed distributed search and analytics engine. Powers full-text search, distributed inverted indexing with BM25 relevance scoring, complex aggregations, and log analytics as the foundational backbone of the ELK Stack.
 - 🚀 **Key Capabilities**: Native vector search with HNSW and dense vector fields, Prometheus remote write with native PromQL execution, distributed sharding and replication, cross-cluster search.
@@ -93,7 +93,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 2. [Meilisearch](https://github.com/meilisearch/meilisearch) [![GitHub stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)
+### 2. [Meilisearch](https://github.com/meilisearch/meilisearch) [![GitHub_Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)
 - 📜 **License**: MIT | 💻 **Core Language**: Rust
 - ⚡ **Overview**: A lightning-fast, hyper-relevant search engine designed for instant search-as-you-type experiences. Requires zero configuration to provide typo tolerance, synonyms, stop words, and faceted navigation out of the box.
 - 🚀 **Key Capabilities**: Sub-50ms latency response, AI-powered hybrid lexical-semantic search with vector embeddings, tenant tokens for secure multi-tenancy, single self-contained binary in Rust with zero runtime dependencies.
@@ -101,7 +101,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 3. [Milvus](https://github.com/milvus-io/milvus) [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)
+### 3. [Milvus](https://github.com/milvus-io/milvus) [![GitHub_Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Go / C++
 - ⚡ **Overview**: Cloud-native distributed vector database built from the ground up for massive-scale vector similarity search and AI analytics. Handles tens of billions of vector embeddings with millisecond retrieval.
 - 🚀 **Key Capabilities**: Compute-storage disaggregation, support for numerous vector indexing algorithms (HNSW, IVF-FLAT, SCaNN, DiskANN), hybrid filtering with scalar attributes, hardware acceleration (GPU/FPGA).
@@ -109,7 +109,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 4. [Qdrant](https://github.com/qdrant/qdrant) [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)
+### 4. [Qdrant](https://github.com/qdrant/qdrant) [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Rust
 - ⚡ **Overview**: High-performance, production-ready vector database and semantic search engine with an advanced payload-based filtering engine. Written in Rust for maximum memory safety and predictable latency.
 - 🚀 **Key Capabilities**: Extended vector filtering payload support, hybrid search combining dense vectors with sparse BM25 token weights, distributed clustering via Raft, SIMD-accelerated distance metrics, disk-backed vector storage.
@@ -117,7 +117,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 5. [Chroma](https://github.com/chroma-core/chroma) [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)
+### 5. [Chroma](https://github.com/chroma-core/chroma) [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Python / Rust
 - ⚡ **Overview**: The AI-native open-source embedding database designed for developer productivity. Powers LLM application memory, document search, and RAG retrieval pipelines with minimal boilerplate.
 - 🚀 **Key Capabilities**: Built-in embedding model generation, multimodal document indexing, full-text lexical search alongside vector search, simple Python and JavaScript client SDKs, serverless and distributed deployment modes.
@@ -125,7 +125,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 6. [Typesense](https://github.com/typesense/typesense) [![GitHub stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)
+### 6. [Typesense](https://github.com/typesense/typesense) [![GitHub_Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers)
 - 📜 **License**: GPL 3.0 | 💻 **Core Language**: C++
 - ⚡ **Overview**: The premier open-source Algolia alternative engineered specifically for delightful developer experience and typo-tolerant search. Delivers sub-50ms search on billions of documents.
 - 🚀 **Key Capabilities**: Built-in typo tolerance handling letter transpositions and missing characters, hybrid search combining keyword and vector retrieval, geosearch, dynamic faceting, Raft-based clustering without ZooKeeper or external coordinators.
@@ -133,7 +133,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 7. [Sonic](https://github.com/valeriansaliou/sonic) [![GitHub stars](https://img.shields.io/github/stars/valeriansaliou/sonic?style=social&color=white)](https://github.com/valeriansaliou/sonic/stargazers)
+### 7. [Sonic](https://github.com/valeriansaliou/sonic) [![GitHub_Stars](https://img.shields.io/github/stars/valeriansaliou/sonic?style=social&color=white)](https://github.com/valeriansaliou/sonic/stargazers)
 - 📜 **License**: MPL 2.0 | 💻 **Core Language**: Rust
 - ⚡ **Overview**: Ultra-fast, lightweight, schema-less search backend designed as a minimalist alternative to heavy search engines like Elasticsearch when only autocomplete and query suggestion are required.
 - 🚀 **Key Capabilities**: Extremely low RAM consumption (operates smoothly in tens of megabytes), microsecond query latency, custom lightweight Sonic Channel protocol, in-memory index with persistent storage.
@@ -141,7 +141,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 8. [ZincSearch](https://github.com/zincsearch/zincsearch) [![GitHub stars](https://img.shields.io/github/stars/zincsearch/zincsearch?style=social&color=white)](https://github.com/zincsearch/zincsearch/stargazers)
+### 8. [ZincSearch](https://github.com/zincsearch/zincsearch) [![GitHub_Stars](https://img.shields.io/github/stars/zincsearch/zincsearch?style=social&color=white)](https://github.com/zincsearch/zincsearch/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Go
 - ⚡ **Overview**: A lightweight modern search engine written in Go, crafted as an operational alternative to Elasticsearch for log indexing and document search without JVM memory overhead.
 - 🚀 **Key Capabilities**: Single binary distribution, embedded indexing engine (powered by Bluge/Bleve), built-in web UI for query inspection and user management, Elasticsearch-compatible ingestion APIs.
@@ -149,7 +149,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 9. [Weaviate](https://github.com/weaviate/weaviate) [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)
+### 9. [Weaviate](https://github.com/weaviate/weaviate) [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)
 - 📜 **License**: BSD 3-Clause | 💻 **Core Language**: Go
 - ⚡ **Overview**: Open-source, cloud-native vector search engine with native modular machine learning integration. Allows querying data with vectors, keywords (BM25), and structured filters simultaneously.
 - 🚀 **Key Capabilities**: Hybrid search (BM25 + vector cosine/dot product fusion), generative search modules for RAG, multi-modal vector search, GraphQL and REST APIs, horizontal scalability with sharding.
@@ -157,7 +157,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 10. [Tantivy](https://github.com/quickwit-oss/tantivy) [![GitHub stars](https://img.shields.io/github/stars/quickwit-oss/tantivy?style=social&color=white)](https://github.com/quickwit-oss/tantivy/stargazers)
+### 10. [Tantivy](https://github.com/quickwit-oss/tantivy) [![GitHub_Stars](https://img.shields.io/github/stars/quickwit-oss/tantivy?style=social&color=white)](https://github.com/quickwit-oss/tantivy/stargazers)
 - 📜 **License**: MIT | 💻 **Core Language**: Rust
 - ⚡ **Overview**: A high-performance full-text search engine library inspired by Apache Lucene and written in Rust. Forms the core indexing and retrieval engine underlying Quickwit and multiple modern search systems.
 - 🚀 **Key Capabilities**: Blazing-fast indexing and query speeds, memory-mapped inverted indexes, SIMD-accelerated bit-packing, faceted search, BM25 scoring, and zero JVM garbage collection pauses.
@@ -165,7 +165,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 11. [OpenSearch](https://github.com/opensearch-project/OpenSearch) [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+### 11. [OpenSearch](https://github.com/opensearch-project/OpenSearch) [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Java
 - ⚡ **Overview**: The 100% open-source, community-driven fork of Elasticsearch and Kibana created by AWS and industry partners following Elastic's license change.
 - 🚀 **Key Capabilities**: Elasticsearch API compatibility for ingestion and search, vector search via k-NN plugin, SQL/PPL query interfaces, anomaly detection, distributed alerting, OpenSearch Dashboards.
@@ -173,7 +173,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 12. [Manticore Search](https://github.com/manticoresoftware/manticoresearch) [![GitHub stars](https://img.shields.io/github/stars/manticoresoftware/manticoresearch?style=social&color=white)](https://github.com/manticoresoftware/manticoresearch/stargazers)
+### 12. [Manticore Search](https://github.com/manticoresoftware/manticoresearch) [![GitHub_Stars](https://img.shields.io/github/stars/manticoresoftware/manticoresearch?style=social&color=white)](https://github.com/manticoresoftware/manticoresearch/stargazers)
 - 📜 **License**: GPL 2.0 | 💻 **Core Language**: C++
 - ⚡ **Overview**: High-speed open-source search and analytics database with native SQL support, evolved from Sphinx Search. Provides a drop-in relational query interface for full-text and vector search.
 - 🚀 **Key Capabilities**: Full SQL syntax support (`SELECT ... WHERE MATCH(...)`), real-time indexing, significantly lower RAM consumption than Lucene-based engines, columnar storage for high-speed aggregations, vector search support.
@@ -181,7 +181,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 13. [Quickwit](https://github.com/quickwit-oss/quickwit) [![GitHub stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)
+### 13. [Quickwit](https://github.com/quickwit-oss/quickwit) [![GitHub_Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)
 - 📜 **License**: AGPL 3.0 / Apache 2.0 | 💻 **Core Language**: Rust
 - ⚡ **Overview**: Sub-second search engine designed specifically for cloud storage (Amazon S3, Google Cloud Storage, Azure Blob). Built on Tantivy to deliver unmatched cost efficiency for massive log and trace data.
 - 🚀 **Key Capabilities**: Stateless indexing and query architecture, direct execution on cloud object storage without local persistent SSDs, native Jaeger distributed trace search, Elasticsearch query API compatibility.
@@ -189,7 +189,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 14. [Bleve](https://github.com/blevesearch/bleve) [![GitHub stars](https://img.shields.io/github/stars/blevesearch/bleve?style=social&color=white)](https://github.com/blevesearch/bleve/stargazers)
+### 14. [Bleve](https://github.com/blevesearch/bleve) [![GitHub_Stars](https://img.shields.io/github/stars/blevesearch/bleve?style=social&color=white)](https://github.com/blevesearch/bleve/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Go
 - ⚡ **Overview**: Modern text indexing and search library written purely in Go. Provides advanced indexing capabilities directly embedded inside Go programs without running external search daemons.
 - 🚀 **Key Capabilities**: Text, numeric, geospatial, and date indexing, customizable text analyzers and tokenizers, pluggable storage backends (BoltDB, Badger, LevelDB), faceted search, scoring via TF-IDF and BM25.
@@ -197,7 +197,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 15. [ParadeDB](https://github.com/paradedb/paradedb) [![GitHub stars](https://img.shields.io/github/stars/paradedb/paradedb?style=social&color=white)](https://github.com/paradedb/paradedb/stargazers)
+### 15. [ParadeDB](https://github.com/paradedb/paradedb) [![GitHub_Stars](https://img.shields.io/github/stars/paradedb/paradedb?style=social&color=white)](https://github.com/paradedb/paradedb/stargazers)
 - 📜 **License**: AGPL 3.0 | 💻 **Core Language**: Rust / C
 - ⚡ **Overview**: The modern Elasticsearch alternative built directly on top of PostgreSQL. Transforms PostgreSQL into a full-text search and analytical search engine using custom pg_search and pg_analytics extensions.
 - 🚀 **Key Capabilities**: Powered by Tantivy inside Postgres, BM25 full-text indexing, real-time ACID updates without separate sync pipelines or ETL lag, integration with standard SQL queries and Postgres tools.
@@ -205,7 +205,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 16. [Vespa](https://github.com/vespa-engine/vespa) [![GitHub stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
+### 16. [Vespa](https://github.com/vespa-engine/vespa) [![GitHub_Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: C++ / Java
 - ⚡ **Overview**: Yahoo's battle-tested search and AI computation platform designed for low-latency processing over massive datasets. Unifies vector search, lexical BM25 search, and real-time ML model re-ranking at scale.
 - 🚀 **Key Capabilities**: Native hybrid search with Reciprocal Rank Fusion (RRF), real-time evaluation of machine learning models (ONNX, PyTorch) during query execution, distributed sharding, high concurrency.
@@ -213,7 +213,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 17. [Apache Lucene](https://github.com/apache/lucene) [![GitHub stars](https://img.shields.io/github/stars/apache/lucene?style=social&color=white)](https://github.com/apache/lucene/stargazers)
+### 17. [Apache Lucene](https://github.com/apache/lucene) [![GitHub_Stars](https://img.shields.io/github/stars/apache/lucene?style=social&color=white)](https://github.com/apache/lucene/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Java
 - ⚡ **Overview**: The legendary, gold-standard open-source search library that powers Elasticsearch, Apache Solr, and OpenSearch. Provides ultra-optimized inverted indexing and vector capabilities.
 - 🚀 **Key Capabilities**: Highly mature BM25 relevance scoring, Lucene codecs, segment merging, dense vector indexing via HNSW, extensive linguistic analyzers and tokenizers for dozens of languages.
@@ -221,7 +221,7 @@ Below is the ranked catalog of premier open-source search, log analytics, and ve
 
 ---
 
-### 18. [Apache Solr](https://github.com/apache/solr) [![GitHub stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)
+### 18. [Apache Solr](https://github.com/apache/solr) [![GitHub_Stars](https://img.shields.io/github/stars/apache/solr?style=social&color=white)](https://github.com/apache/solr/stargazers)
 - 📜 **License**: Apache 2.0 | 💻 **Core Language**: Java
 - ⚡ **Overview**: The venerable, battle-tested enterprise search platform built on Apache Lucene with over two decades of production deployments across Fortune 500 enterprises.
 - 🚀 **Key Capabilities**: SolrCloud distributed cluster architecture via ZooKeeper, faceted search, hit highlighting, rich document parsing with Apache Tika, JSON/XML/HTTP APIs.
@@ -265,7 +265,7 @@ We welcome community contributions, updates, and benchmark insights! To contribu
    ```
 3. 📝 **Add or edit entries in `README.md`**:
    - For SaaS: verify pricing tier, company valuation/revenue, and free tier limits.
-   - For Open-Source: verify GitHub repo, ensure star badge is included with link to `/stargazers`, and maintain correct sorting.
+   - For Open-Source: verify GitHub repo, ensure Stars_Badge is included with link to `/stargazers`, and maintain correct sorting.
 4. ✅ **Ensure markdown formatting and links** are verified.
 5. 🚀 **Submit a Pull Request** with a concise description of your additions.
 
