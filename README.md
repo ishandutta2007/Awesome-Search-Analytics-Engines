@@ -81,7 +81,7 @@ The table below catalogs premier commercial and cloud-hosted search and analytic
 
 ## 🛠️ Open-Source Search & Analytics Engines
 
-Below is the ranked catalog of premier open-source search, log analytics, and vector retrieval engines. **Strictly sorted in descending order by GitHub Stars_Count**.
+Below is the ranked catalog of premier open-source search, log analytics, and vector retrieval engines. **Strictly sorted in descending order by GitHub_Stars_Count**.
 
 ---
 
